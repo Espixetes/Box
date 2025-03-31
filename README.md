@@ -1,1 +1,2 @@
 # Box
+We use the **Gaussian method** to solve the matrix. Although this method takes longer when the matrix has more than a hundred elements, it provides an exact solution. If the matrix is inconsistent (for example, in a 5x5 matrix, such cases may occur), we use an **iterative method**. To further improve performance, threads can be utilized, but the given code only demonstrates the solution algorithm. 
