@@ -238,8 +238,8 @@ bool openBox(uint32_t y, uint32_t x) {
 
 int main(int argc, char* argv[])
 {
-    uint32_t y = 7; // std::atol(argv[1]);
-    uint32_t x = 12; // std::atol(argv[2]);
+    uint32_t y = std::atol(argv[1]);
+    uint32_t x = std::atol(argv[2]);
     bool state = openBox(y, x);
 
     if (state)
