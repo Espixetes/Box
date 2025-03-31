@@ -26,6 +26,10 @@
 *.a
 *.lib
 
+# Other
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
 # Executables
 *.exe
 *.out
