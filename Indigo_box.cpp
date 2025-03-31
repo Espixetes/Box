@@ -209,10 +209,8 @@ bool openBox(uint32_t y, uint32_t x) {
         }
     }
     
-    while (box.isLocked()) {
-        std::vector<std::vector<bool>> state = box.getState();
-
-       
+    while (box.isLocked())  //If Gaussian method don`t work , will try to use iteraktive method
+    {
         for (uint32_t i = 0; i < y; i++) 
         {
             for (uint32_t j = 0; j < x; j++) 
